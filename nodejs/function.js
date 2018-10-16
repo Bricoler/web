@@ -1,7 +1,7 @@
 var template = function() {
 };
 
-template.templateHTML = function(title, list, body) {
+template.templateHTML = function(title, list, body, control) {
   var template = `
       <!doctype html>
       <html>
@@ -12,6 +12,7 @@ template.templateHTML = function(title, list, body) {
       <body>
         <h1><a href="/">WEB</a></h1>
         ${list}
+        ${control}
         ${body}
       </body>
       </html>
