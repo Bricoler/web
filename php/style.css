@@ -1,0 +1,15 @@
+#delete {
+  background:none!important;
+  color:blue;
+  border:none;
+  padding:0!important;
+  font: inherit;
+  /*border is optional*/
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#delete:focus {
+  color:red;
+  outline:none!important;
+}

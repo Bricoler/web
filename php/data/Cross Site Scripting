@@ -1,0 +1,5 @@
+XSS 
+<script>
+alert('babo');
+location.href='https://opentutorials.org/course/';
+</script>
